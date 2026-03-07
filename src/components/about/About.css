@@ -1,0 +1,300 @@
+.about-section {
+    padding: 120px 0;
+    color: white;
+    min-height: 100vh;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-title span {
+    color: #00f5a0;
+}
+
+.about-text {
+    padding-right: 40px;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #cfcfcf;
+    margin-bottom: 16px;
+}
+
+.highlight {
+    color: #00f5a0;
+    font-weight: 600;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    animation: floatCard 6s ease-in-out infinite;
+}
+
+.profile-wrapper .pc-card {
+    height: 420px !important;
+    max-height: 420px !important;
+    width: 320px;
+}
+
+@keyframes floatCard {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes gradientRotate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.section-divider {
+    margin: 30px auto 20px;
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, #00f5a0, #7b61ff);
+    border-radius: 10px;
+}
+
+.technical-skills {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills-heading {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.skills-heading span {
+    color: #00f5a0;
+}
+
+.skills-subtitle {
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 35px;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-category h5 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #00f5a0;
+}
+
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+}
+
+.skill-badge {
+    width: 240px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #e5e7eb;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.35s ease;
+}
+
+.skill-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.skill-badge i {
+    font-size: 20px;
+}
+
+.skill-badge:hover {
+    transform: translateY(-6px);
+    border-color: #00f5a0;
+    box-shadow:
+        0 0 10px #00f5a0,
+        0 0 20px rgba(0, 245, 160, 0.6),
+        0 0 35px rgba(0, 245, 160, 0.4);
+}
+
+.skill-progress {
+    position: absolute;
+    bottom: -100%;
+    width: 80%;
+    text-align: center;
+    transition: 0.4s ease;
+    font-size: 12px;
+}
+
+.skill-badge:hover .skill-content {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.skill-badge:hover .skill-progress {
+    bottom: 12px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: #1f2937;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00f5a0, #00d9ff);
+    border-radius: 10px;
+    width: 0;
+}
+
+.skill-badge:hover .js {
+    animation: jsFill 1s forwards;
+}
+
+.skill-badge:hover .react {
+    animation: reactFill 1s forwards;
+}
+
+.skill-badge:hover .html {
+    animation: htmlFill 1s forwards;
+}
+
+.skill-badge:hover .css {
+    animation: cssFill 1s forwards;
+}
+
+.skill-badge:hover .ts {
+    animation: tsFill 1s forwards;
+}
+
+.skill-badge:hover .java {
+    animation: javaFill 1s forwards;
+}
+
+.skill-badge:hover .bootstrap {
+    animation: bootstrapFill 1s forwards;
+}
+
+.skill-badge:hover .next {
+    animation: nextFill 1s forwards;
+}
+
+@keyframes jsFill {
+    from { width: 0 }
+    to { width: 85% }
+}
+
+@keyframes reactFill {
+    from { width: 0 }
+    to { width: 85% }
+}
+
+@keyframes htmlFill {
+    from { width: 0 }
+    to { width: 95% }
+}
+
+@keyframes cssFill {
+    from { width: 0 }
+    to { width: 92% }
+}
+
+@keyframes tsFill {
+    from { width: 0 }
+    to { width: 70% }
+}
+
+@keyframes javaFill {
+    from { width: 0 }
+    to { width: 75% }
+}
+
+@keyframes bootstrapFill {
+    from { width: 0 }
+    to { width: 90% }
+}
+
+@keyframes nextFill {
+    from { width: 0 }
+    to { width: 72% }
+}
+
+@media (max-width: 992px) {
+
+    .about-text {
+        text-align: center;
+        padding-right: 0;
+        margin-top: 30px;
+    }
+
+    .profile-wrapper {
+        margin-bottom: 40px;
+        min-height: auto;
+    }
+
+    .profile-wrapper .pc-card {
+        height: 380px !important;
+        width: 280px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .about-title {
+        font-size: 32px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+    }
+
+    .skill-badge {
+        width: 220px;
+        height: 100px;
+    }
+
+    .profile-wrapper .pc-card {
+        height: 340px !important;
+        width: 250px;
+    }
+
+}
