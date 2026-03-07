@@ -4,58 +4,48 @@ import "./Project.css";
 
 let projects = [
     {
-        title: "Currency Converter",
+        title: "UtilityVerse",
         description:
-            "A real-time currency converter using exchange rate API.",
-        image: "/projects/currency.png",
-        github: "https://utility-versee.vercel.app/",
-        demo: "https://currency-demo.com",
-        tech: ["JavaScript", "API", "CSS"]
+            "UtilityVerse is a modern utility dashboard that helps users manage daily tasks, format text, test knowledge with quizzes, and track job applications - all in one fast and minimal interface",
+        image: "/projects/utilityverse.png",
+        github: "https://github.com/CodeWithVishal-18/UtilityVerse",
+        demo: "https://utility-versee.vercel.app/",
+        tech: ["React","JavaScript", "Context API","Routing", "CSS","Bootstrap"]
     },
     {
-        title: "Developer Portfolio",
+        title: "JapMala - Counter App",
         description:
-            "Modern developer portfolio built with React and responsive UI.",
-        image: "/projects/portfolio.png",
-        github: "https://github.com/yourusername/portfolio",
-        demo: "https://portfolio-demo.com",
-        tech: ["React", "Bootstrap", "CSS"]
+            "A mobile-first digital Jap Mala that helps users track mantra chanting with customizable counts and provides a collection of mantras for different deities in a simple, distraction-free interface.",
+        image: "/projects/japmala.png",
+        github: "https://github.com/CodeWithVishal-18/JapMala---Counter-Application",
+        demo: "https://japmala-mantra.netlify.app/",
+        tech: ["React", "Bootstrap", "CSS","API","Routing"]
     },
     {
-        title: "Task Manager App",
+        title: "LoveSync Connect",
         description:
-            "Full stack task manager with CRUD operations.",
-        image: "/projects/task.png",
-        github: "https://github.com/yourusername/task-manager",
-        demo: "https://task-demo.com",
-        tech: ["React", "Node", "MongoDB"]
+            "LoveSync Connect is an interactive web app that calculates relationship compatibility using both partners’ names and dates of birth. It analyzes name compatibility and horoscope matching to generate a realistic and engaging compatibility result for couples. ❤️",
+        image: "/projects/lovesync.png",
+        github: "https://github.com/CodeWithVishal-18/",
+        demo: "https://lovesync-connect.netlify.app/",
+        tech: ["React", "JavaScript", "CSS","Bootstrap"]
     }
 ];
 
 let Projects = memo(() => {
     return (
         <section className="projects-section container" id="projects">
-
-            <h2 className="projects-title">
-                My <span>Projects</span>
-            </h2>
-
-            <p className="projects-subtitle">
-                A selection of projects I've built while learning modern technologies.
-            </p>
-
+            <h2 className="projects-title">My <span>Projects</span></h2>
+            <p className="projects-subtitle">A selection of projects I've built while learning modern technologies.</p>
             <div className="row">
-
                 {projects.map((project, index) => (
                     <div className="col-lg-4 col-md-6 mb-4" key={index}>
                         <ProjectCard {...project} />
                     </div>
                 ))}
-
             </div>
-
         </section>
-    );
-});
+    )
+})
 
 export default Projects;
