@@ -22,21 +22,13 @@
 
 .project-card {
     position: relative;
-
     background: rgba(255, 255, 255, 0.03);
-
     border-radius: 16px;
-
     overflow: hidden;
-
     backdrop-filter: blur(10px);
-
     border: 1px solid rgba(255, 255, 255, 0.08);
-
     transition: 0.4s;
-
-    height: 420px;
-
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -71,6 +63,7 @@
     height: 200px;
     width: 100%;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .project-image-wrapper img {
@@ -182,7 +175,7 @@
 @media(max-width:992px) {
 
     .project-card {
-        height: 400px;
+        height: 100%;
     }
 
 }
@@ -198,7 +191,7 @@
     }
 
     .project-card {
-        height: 380px;
+        height: 100%;
     }
 
 }
