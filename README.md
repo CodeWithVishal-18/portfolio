@@ -1,4 +1,4 @@
-# 🌐 Developer Portfolio
+# 🌐 My Portfolio
 A modern **developer portfolio website** built with **React.js** to showcase my projects, technical skills, and resume.
 The portfolio focuses on **clean UI, responsive design, and smooth animations** to provide a professional developer presence.
 
