@@ -9,7 +9,6 @@ The portfolio focuses on **clean UI, responsive design, and smooth animations** 
 - About section with technical skills
 - Project showcase cards
 - Resume preview and download
-- Contact section
 - Smooth hover animations
 - Optimized performance
 
@@ -70,10 +69,10 @@ The project was deployed using **Vercel**.
 
 2. Connect repository with Vercel
 
-3. Configure build settings
+3. Configure build settings <br>
     Build Command: npm run build
     Output Directory: build
-4. Deploy automatically from GitHub.
+5. Deploy automatically from GitHub.
 
 
 # ⚠️ Challenges Faced
@@ -86,7 +85,7 @@ Different project images caused uneven card sizes.
 
 **Solution**
 
-Used CSS:
+Used CSS: <br>
   object-fit: cover;
 
 This ensured images fit perfectly inside fixed containers.
@@ -121,13 +120,6 @@ Used:
 - Add GitHub stats section
 - Add project filtering
 - Improve animations
-
-
-# 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeWithVishal-18&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeWithVishal-18&layout=compact&theme=tokyonight)
 
 # 📬 Contact
 
