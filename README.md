@@ -70,7 +70,7 @@ The project was deployed using **Vercel**.
 2. Connect repository with Vercel
 
 3. Configure build settings <br>
-    Build Command: npm run build
+    Build Command: npm run build <br>
     Output Directory: build
 5. Deploy automatically from GitHub.
 
