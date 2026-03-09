@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./App.css"
 
 export default function Navbar() {
 
@@ -27,7 +28,7 @@ export default function Navbar() {
   };
 
   let navLinkStyle = ({ isActive }) =>
-    "nav-link fw-semibold " + (isActive ? "active-link" : "");
+    "nav-link nav-hover " + (isActive ? "active-link" : "");
 
   return (
     <nav
