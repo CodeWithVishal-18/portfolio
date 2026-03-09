@@ -1,66 +1,99 @@
-.navLinkStyle{
-  color: white;
+.transition-navbar {
+  transition: all 0.4s ease;
+}
+
+.navbar-transparent {
+  background: transparent;
+}
+
+.navbar-normal {
+  padding: 18px 20px;
+}
+
+.navbar-shrink {
+  padding: 8px 20px;
+}
+
+@media (min-width:992px) {
+  .navbar-glass {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.2);
+  }
 }
 
 .nav-hover {
-    position: relative;
-    transition: color 0.3s ease;
+  position: relative;
+  padding-bottom: 4px;
 }
 
 .nav-hover::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 0%;
-    height: 2px;
-    background: radial-gradient(ellipse at center, #6e5773, #d45079, #ea9085);
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-    border-radius: 4rem;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00f5a0, #4cffc0, #4affc0);
+  transform: translateX(-50%);
+  transition: width 0.35s ease;
+  border-radius: 20px;
+  box-shadow: 0 0 6px rgba(0, 245, 160, 0.6), 0 0 12px rgba(0, 245, 160, 0.4);
 }
 
 .nav-hover:hover::after {
-    width: 100%;
-}
-
-.rotate-icon:hover {
-    display: inline-block;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+  width: 100%;
 }
 
 .active-link {
-    position: relative;
+  position: relative;
 }
 
 .active-link::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: radial-gradient(ellipse at center, #6e5773, #d45079, #ea9085);
-    border-radius: 4rem;
-    animation: slideIn 0.3s ease;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #00f5a0, #4cffc0, #4affc0);
+  border-radius: 20px;
+  box-shadow: 0 0 6px rgba(0, 245, 160, 0.6), 0 0 12px rgba(0, 245, 160, 0.4);
 }
 
-@keyframes slideIn {
-    from {
-        width: 0%;
-    }
+.navbar-toggler {
+  border: none;
+}
 
-    to {
-        width: 100%;
-    }
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-brand {
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 0 8px #00f5a0, 0 0 18px #ff758c;
+}
+
+@media (max-width:991px) {
+  .navbar-collapse {
+    margin-top: 10px;
+    padding: 18px;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .navbar-nav {
+    text-align: center;
+    gap: 12px;
+  }
 }
