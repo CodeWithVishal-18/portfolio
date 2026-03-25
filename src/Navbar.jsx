@@ -1,34 +1,34 @@
-import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react"
+import { Link, NavLink } from "react-router-dom"
 import "./App.css"
 
 export default function Navbar() {
 
-  let [scrolled, setScrolled] = useState(false);
+  let [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     let handleScroll = () => {
       if (window.scrollY > 50) {
-        setScrolled(true);
+        setScrolled(true)
       } else {
-        setScrolled(false);
+        setScrolled(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   let closeNavbar = () => {
-    let navbar = document.querySelector(".navbar-collapse");
+    let navbar = document.querySelector(".navbar-collapse")
     if (navbar.classList.contains("show")) {
-      navbar.classList.remove("show");
+      navbar.classList.remove("show")
     }
-  };
+  }
 
   let navLinkStyle = ({ isActive }) =>
-    "nav-link nav-hover " + (isActive ? "active-link" : "");
+    "nav-link nav-hover " + (isActive ? "active-link" : "")
 
   return (
     <nav

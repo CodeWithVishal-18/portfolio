@@ -14,10 +14,7 @@ let Home = memo(() => {
             <span style={{   display: "inline-block",   animation: "waveHand 2.5s ease-in-out infinite" }} > 👋🏻 </span>
           </p>
 
-          <h1 className="home-name">
-            I'M <span className="name-highlight">VISHAL SHUKLA</span>
-          </h1>
-
+          <h1 className="home-name">I'M <span className="name-highlight">VISHAL SHUKLA</span></h1>
           <div className="home-role">
             <Typewriter
               words={[
@@ -29,7 +26,6 @@ let Home = memo(() => {
           </div>
 
           <p className="home-tagline">I build fast, scalable, and user-friendly web applications.</p>
-
           <div className="home-buttons">
             <Link to={"/projects"} className="btn primary">View Projects</Link>
             <Link to={"/resume"} className="btn secondary" download>Download Resume</Link>
@@ -48,7 +44,7 @@ let Home = memo(() => {
 
       </div>
     </section>
-  );
-});
+  )
+})
 
 export default Home;

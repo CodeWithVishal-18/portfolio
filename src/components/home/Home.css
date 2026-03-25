@@ -82,13 +82,13 @@
 }
 
 .home-socials {
-    margin-top: 20px;
+    margin-top: 18px;
     display: flex;
     gap: 15px;
 }
 
 .home-socials a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #ccc;
     transition: 0.3s;
 }
@@ -194,12 +194,8 @@
         max-width: 280px;
     }
 
-    .hero-circle {
-        width: 220px;
-        height: 220px;
+    .home-socials{
+        text-align: center;
     }
-
-    .orbit-item {
-        font-size: 0.6rem;
-    }
+    
 }
