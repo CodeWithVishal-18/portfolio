@@ -1,25 +1,23 @@
 import React, { memo } from "react";
 import "./Home.css";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 
 let Home = memo(() => {
-  let orbitItems = [
-    { icon: "⚛️", label: "React", angle: 0, color: "#00F5A0" },
-    { icon: "🎨", label: "Design", angle: 72, color: "#7B61FF" },
-    { icon: "🔧", label: "Node", angle: 144, color: "#FF6B6B" },
-    { icon: "📱", label: "Mobile", angle: 216, color: "#FFD93D" },
-    { icon: "☁️", label: "Cloud", angle: 288, color: "#00B4D8" },
-  ]
-
   return (
     <section className="home-section" id="home">
       <div className="home-inner">
+
         <div className="home-text">
           <p className="home-greeting">
             Hi There!{" "}
-            <span style={{ display: "inline-block", animation: "waveHand 2.5s ease-in-out infinite" }}>👋🏻</span>
+            <span style={{   display: "inline-block",   animation: "waveHand 2.5s ease-in-out infinite" }} > 👋🏻 </span>
           </p>
-          <h1 className="home-name">I'M <span className="name-highlight">VISHAL SHUKLA</span></h1>
+
+          <h1 className="home-name">
+            I'M <span className="name-highlight">VISHAL SHUKLA</span>
+          </h1>
+
           <div className="home-role">
             <Typewriter
               words={[
@@ -27,35 +25,30 @@ let Home = memo(() => {
                 "React Developer",
                 "Problem Solver",
                 "Freelancer"
-              ]}
-              loop={0}
-              cursor
-              cursorStyle="|"
-              typeSpeed={80}
-              deleteSpeed={50}
-              delaySpeed={1500}
-            />
+              ]} loop={0} cursor cursorStyle="|" typeSpeed={80} deleteSpeed={50} delaySpeed={1500}/>
+          </div>
+
+          <p className="home-tagline">I build fast, scalable, and user-friendly web applications.</p>
+
+          <div className="home-buttons">
+            <Link to={"/projects"} className="btn primary">View Projects</Link>
+            <Link to={"/resume"} className="btn secondary" download>Download Resume</Link>
+          </div>
+
+          <div className="home-socials">
+            <a href="https://github.com/CodeWithVishal-18"><i className="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/vishal-shukla-1818vk"><i className="bi bi-linkedin"></i></a>
+            <a href="mailto:vishal.shuklaji45@gmail.com"><i className="bi bi-envelope-fill"></i></a>
           </div>
         </div>
-        <div className="home-illustration">
-          <div className="hero-visual">
-            <div className="hero-circle">
-              👨‍💻
-              {orbitItems.map(({ icon, label, angle, color }) => {
-                let rad = (angle - 90) * Math.PI / 180;
-                let r = 38;
-                return (
-                  <div key={label} className="orbit-item" style={{ left: `${50 + r * Math.cos(rad)}%`, top: `${50 + r * Math.sin(rad)}%`, borderColor: `${color}44`, color: color }}>
-                    {icon} {label}
-                  </div>
-                )
-              })}
-            </div>
-          </div>
+
+        <div className="hero-bg-section">
+          <img src="hero-bg.svg" alt="Hero Illustration" />
         </div>
+
       </div>
     </section>
-  )
-})
+  );
+});
 
 export default Home;

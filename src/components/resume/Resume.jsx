@@ -5,9 +5,7 @@ let Resume = memo(() => {
   return (
     <section className="resume-section container" id="resume">
 
-      <h2 className="resume-title">
-        My <span>Resume</span>
-      </h2>
+      <h2 className="resume-title">My <span>Resume</span></h2>
 
       <p className="resume-subtitle">
         You can preview my resume below or download it.
