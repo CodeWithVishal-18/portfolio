@@ -32,9 +32,9 @@ let Home = memo(() => {
           </div>
 
           <div className="home-socials">
-            <a href="https://github.com/CodeWithVishal-18" target="_blank"><i className="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/vishal-shukla-1818vk" target="_blank"><i className="bi bi-linkedin"></i></a>
-            <a href="mailto:vishal.shuklaji45@gmail.com" target="_blank"><i className="bi bi-envelope-fill"></i></a>
+            <a href="https://github.com/CodeWithVishal-18" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/vishal-shukla-1818vk" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
+            <a href="mailto:vishal.shuklaji45@gmail.com" target="_blank" rel="noreferrer"><i className="bi bi-envelope-fill"></i></a>
           </div>
         </div>
 
