@@ -35,7 +35,7 @@ let projects = [
         description:
             "Built a movie search application that allows users to find movie details in real time, displaying information like genre, cast, and IMDb rating with a responsive UI and dark/light theme toggle.",
         image: "/projects/moviesearch.png",
-        github: "https://github.com/CodeWithVishal-18/",
+        github: "https://github.com/CodeWithVishal-18/Movie-Search-Application",
         demo: "https://oncemoviesearch.netlify.app/",
         tech: ["React", "JavaScript", "CSS","Bootstrap"]
     }
