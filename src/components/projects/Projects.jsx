@@ -4,13 +4,22 @@ import "./Project.css";
 
 let projects = [
     {
+        title: "CodeSaarthi",
+        description:
+            "CodeSaarthi is an interactive full-stack learning platform that provides a structured roadmap for mastering web development. It includes topic-wise learning, quizzes, logic-building problems, and cheatsheets to enhance both conceptual understanding and problem-solving skills, making it ideal for beginners and interview preparation.",
+        image: "/projects/codesaarthi.png",
+        github: "https://github.com/CodeWithVishal-18/CodeSaarthi-Full-Stack-Full-Confidence",
+        demo: "https://devsaarthi.vercel.app/",
+        tech: ["React", "JavaScript", "Context API", "React Router", "Bootstrap", "CSS"]
+    },
+    {
         title: "UtilityVerse",
         description:
             "UtilityVerse is a modern utility dashboard that helps users manage daily tasks, format text, test knowledge with quizzes, and track job applications - all in one fast and minimal interface",
         image: "/projects/utilityverse.png",
         github: "https://github.com/CodeWithVishal-18/UtilityVerse",
         demo: "https://utility-versee.vercel.app/",
-        tech: ["React","JavaScript", "Context API","Routing", "CSS","Bootstrap"]
+        tech: ["React", "JavaScript", "Context API", "Routing", "CSS", "Bootstrap"]
     },
     {
         title: "JapMala - Counter App",
@@ -19,7 +28,7 @@ let projects = [
         image: "/projects/japmala.png",
         github: "https://github.com/CodeWithVishal-18/JapMala---Counter-Application",
         demo: "https://japmala-mantra.netlify.app/",
-        tech: ["React", "Bootstrap", "CSS","API","Routing"]
+        tech: ["React", "Bootstrap", "CSS", "API", "Routing"]
     },
     {
         title: "LoveSync Connect",
@@ -28,7 +37,7 @@ let projects = [
         image: "/projects/lovesync.png",
         github: "https://github.com/CodeWithVishal-18/",
         demo: "https://lovesync-connect.netlify.app/",
-        tech: ["React", "JavaScript", "CSS","Bootstrap"]
+        tech: ["React", "JavaScript", "CSS", "Bootstrap"]
     },
     {
         title: "MovieSearch Application",
@@ -37,7 +46,7 @@ let projects = [
         image: "/projects/moviesearch.png",
         github: "https://github.com/CodeWithVishal-18/Movie-Search-Application",
         demo: "https://oncemoviesearch.netlify.app/",
-        tech: ["React", "JavaScript", "CSS","Bootstrap"]
+        tech: ["React", "JavaScript", "CSS", "Bootstrap"]
     }
 ];
 
