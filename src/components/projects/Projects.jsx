@@ -47,6 +47,15 @@ let projects = [
         github: "https://github.com/CodeWithVishal-18/Movie-Search-Application",
         demo: "https://oncemoviesearch.netlify.app/",
         tech: ["React", "JavaScript", "CSS", "Bootstrap"]
+    },
+    {
+        title: "TECH-SY Digital Solutions Website",
+        description:
+            "Designed a modern digital solutions landing page using HTML and CSS, showcasing services like web development, cybersecurity, AI, and cloud solutions with a clean and responsive UI.",
+        image: "/projects/techsy.png",
+        github: "https://github.com/CodeWithVishal-18/TECH-SY",
+        demo: "https://techsy.netlify.app/",
+        tech: ["HTML", "CSS"]
     }
 ];
 
