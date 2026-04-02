@@ -53,7 +53,7 @@ let projects = [
         description:
             "Designed a modern digital solutions landing page using HTML and CSS, showcasing services like web development, cybersecurity, AI, and cloud solutions with a clean and responsive UI.",
         image: "/projects/techsy.png",
-        github: "https://github.com/CodeWithVishal-18/TECH-SY",
+        github: "https://github.com/CodeWithVishal-18/Tech-Sy",
         demo: "https://techsy.netlify.app/",
         tech: ["HTML", "CSS"]
     }
