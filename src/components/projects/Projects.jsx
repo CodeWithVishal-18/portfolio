@@ -35,8 +35,8 @@ let projects = [
         description:
             "LoveSync Connect is an interactive web app that calculates relationship compatibility using both partners’ names and dates of birth. It analyzes name compatibility and horoscope matching to generate a realistic and engaging compatibility result for couples. ❤️",
         image: "/projects/lovesync.png",
-        github: "https://github.com/CodeWithVishal-18/",
-        demo: "https://lovesync-connect.netlify.app/",
+        github: "https://github.com/CodeWithVishal-18/LoveSync---A-Compatibility-Checker-Application",
+        demo: "https://lovesync-calc.vercel.app/",
         tech: ["React", "JavaScript", "CSS", "Bootstrap"]
     },
     {
