@@ -57,7 +57,7 @@ let projects = [
         demo: "https://techsy.netlify.app/",
         tech: ["HTML", "CSS"]
     }
-];
+]
 
 let Projects = memo(() => {
     return (
