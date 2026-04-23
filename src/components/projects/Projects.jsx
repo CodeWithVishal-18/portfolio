@@ -53,8 +53,8 @@ let projects = [
         description:
             "Built a multi-functional web application combining a BMI calculator, motivational quote generator using Fetch API, and an interactive Rock Paper Scissors game with scoreboard, sound effects, and responsive UI.",
         image: "/projects/healthtrack-game.png",
-        github: "https://github.com/yourusername/healthtrack-fun",
-        demo: "",
+        github: "https://github.com/CodeWithVishal-18/HealthTrack-Fun-Game-",
+        demo: "https://bmi-gameeeee.netlify.app/",
         tech: ["HTML", "CSS", "JavaScript", "API"]
     },
     {
