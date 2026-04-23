@@ -49,6 +49,15 @@ let projects = [
         tech: ["React", "JavaScript", "CSS", "Bootstrap"]
     },
     {
+        title: "HealthTrack & Fun",
+        description:
+            "Built a multi-functional web application combining a BMI calculator, motivational quote generator using Fetch API, and an interactive Rock Paper Scissors game with scoreboard, sound effects, and responsive UI.",
+        image: "/projects/healthtrack-game.png",
+        github: "https://github.com/yourusername/healthtrack-fun",
+        demo: "",
+        tech: ["HTML", "CSS", "JavaScript", "API"]
+    },
+    {
         title: "TECH-SY Digital Solutions Website",
         description:
             "Designed a modern digital solutions landing page using HTML and CSS, showcasing services like web development, cybersecurity, AI, and cloud solutions with a clean and responsive UI.",
