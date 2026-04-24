@@ -55,7 +55,7 @@ let projects = [
         image: "/projects/healthtrack-game.png",
         github: "https://github.com/CodeWithVishal-18/HealthTrack-Fun-Game-",
         demo: "https://bmi-gameeeee.netlify.app/",
-        tech: ["HTML", "CSS", "JavaScript", "API"]
+        tech: ["HTML", "CSS", "JavaScript", "API","Bootstrap"]
     },
     {
         title: "TECH-SY Digital Solutions Website",
