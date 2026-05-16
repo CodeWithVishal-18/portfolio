@@ -57,6 +57,7 @@ The portfolio was developed using **React functional components** with a modular
 - React.memo
 - Lazy loading
 - optimized CSS animations
+- use of React Bits for profile pic in About Section
 
 
 # 🚀 Deployment
