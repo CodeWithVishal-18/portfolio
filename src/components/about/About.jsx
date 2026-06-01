@@ -30,7 +30,7 @@ const About = memo(() => {
                     <p>Hi, I’m <strong>Vishal Shukla</strong>, an aspiring <span className="highlight">Full Stack Developer</span> passionate about building modern, scalable, and visually engaging web applications. I enjoy transforming ideas into real digital products and creating experiences that are both functional and intuitive.</p>
 
                     <p>I primarily work with <span className="highlight">JavaScript</span> and modern technologies like <span className="highlight">React.js</span>, <span className="highlight">Next.js</span>, and <span className="highlight">TypeScript</span>. I focus on building <span className="highlight">responsive interfaces</span>, interactive UI, and <span className="highlight">high-performance web applications</span> that deliver great user experiences.</p>
-                    
+
                     <p>I enjoy <span className="highlight">problem-solving</span>, experimenting with <span className="highlight">creative UI designs</span>, and <span className="highlight">writing clean</span>, <span className="highlight">maintainable code</span>. I’m always learning new technologies and improving my skills to grow into a strong <span className="highlight">Full Stack Developer</span> who builds impactful digital solutions.</p>
                 </div>
             </div>
@@ -83,6 +83,78 @@ const About = memo(() => {
                     </div>
 
                 </div>
+
+                <div className="skill-category">
+                    <h5>Backend</h5>
+                    <div className="badge-container">
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="devicon-spring-plain colored"></i>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>82%</span>
+                            </div>
+                        </div>
+
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="bi bi-braces text-primary fs-4"></i>
+                                <span>REST APIs</span>
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="devicon-mysql-plain colored"></i>
+                                MySQL
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>80%</span>
+                            </div>
+                        </div>
+
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="bi bi-shield-lock text-warning fs-4"></i>
+                                <span>Spring Security</span>
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>72%</span>
+                            </div>
+                        </div>
+
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="devicon-postman-plain colored"></i>
+                                Postman
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>88%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
                 <div className="skill-category">
                     <h5>Frontend</h5>
                     <div className="badge-container">
