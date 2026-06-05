@@ -96,7 +96,7 @@ const About = memo(() => {
                                 <div className="progress-bar">
                                     <div className="progress-fill js"></div>
                                 </div>
-                                <span>82%</span>
+                                <span>84%</span>
                             </div>
                         </div>
 
