@@ -115,7 +115,8 @@
   filter: brightness(0.66) contrast(1.33) saturate(0.33) opacity(0.5);
   animation: holo-bg 18s linear infinite;
   animation-play-state: running;
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: soft-light;
+  opacity: .18;
 }
 
 .pc-shine,
@@ -243,7 +244,6 @@
 }
 
 .pc-avatar-content {
-  mix-blend-mode: luminosity;
   overflow: visible;
   transform: translateZ(2);
   backface-visibility: hidden;

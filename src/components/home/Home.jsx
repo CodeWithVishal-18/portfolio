@@ -25,7 +25,9 @@ let Home = memo(() => {
               ]} loop={0} cursor cursorStyle="|" typeSpeed={80} deleteSpeed={50} delaySpeed={1500}/>
           </div>
 
-          <p className="home-tagline">I build fast, scalable, and user-friendly web applications.</p>
+          <p className="home-tagline">Passionate about building modern web applications,
+                    solving real-world problems and continuously improving
+                    as a Full Stack Developer.</p>
           <div className="home-buttons">
             <Link to={"/projects"} className="btn primary">View Projects</Link>
             <Link to={"/resume"} className="btn secondary" download>Download Resume</Link>
