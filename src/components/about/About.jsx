@@ -42,6 +42,20 @@ const About = memo(() => {
                 <div className="skill-category">
                     <h5>Languages</h5>
                     <div className="badge-container">
+
+                        <div className="skill-badge">
+                            <div className="skill-content">
+                                <i className="devicon-java-plain colored"></i>
+                                <span>Java</span>
+                            </div>
+                            <div className="skill-progress">
+                                <div className="progress-bar">
+                                    <div className="progress-fill js"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+
                         <div className="skill-badge">
                             <div className="skill-content"><i className="devicon-javascript-plain colored"></i>
                                 <span>JavaScript</span>
@@ -67,19 +81,6 @@ const About = memo(() => {
                             </div>
                         </div>
 
-                        <div className="skill-badge">
-                            <div className="skill-content">
-                                <i className="devicon-java-plain colored"></i>
-                                <span>Java</span>
-                            </div>
-                            <div className="skill-progress">
-                                <div className="progress-bar">
-                                    <div className="progress-fill js"></div>
-                                </div>
-                                <span>75%</span>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
@@ -96,7 +97,7 @@ const About = memo(() => {
                                 <div className="progress-bar">
                                     <div className="progress-fill js"></div>
                                 </div>
-                                <span>84%</span>
+                                <span>85%</span>
                             </div>
                         </div>
 
@@ -109,7 +110,7 @@ const About = memo(() => {
                                 <div className="progress-bar">
                                     <div className="progress-fill js"></div>
                                 </div>
-                                <span>85%</span>
+                                <span>90%</span>
                             </div>
                         </div>
 
