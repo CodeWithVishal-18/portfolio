@@ -90,7 +90,7 @@ const About = memo(() => {
                                 <i className="bi bi-mortarboard"></i>
                                 <div>
                                     <span>Education</span>
-                                    <h6>MCA Student</h6>
+                                    <h6>Graduation in BSc IT</h6>
                                 </div>
                             </div>
 
