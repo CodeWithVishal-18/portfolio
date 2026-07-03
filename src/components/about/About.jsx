@@ -47,7 +47,7 @@ const About = memo(() => {
                 <div className="col-lg-8">
                     <div className="about-content">
                         <p>
-                            I'm a passionate <span className="highlight"><strong>Full Stack Developer </strong></span>
+                            I'm a passionate <span className="highlight " style={{letterSpacing:"2px"}}><strong>Full Stack Developer </strong></span>
                             who enjoys transforming ideas into modern,
                             responsive and user-friendly web applications.
                             I love creating clean interfaces while building
@@ -74,7 +74,7 @@ const About = memo(() => {
                                 <i className="bi bi-geo-alt"></i>
                                 <div>
                                     <span>Location</span>
-                                    <h6>India</h6>
+                                    <h6>Mumbai, Maharashtra</h6>
                                 </div>
                             </div>
 

@@ -7,7 +7,7 @@ let projects = [
         title: "CodeSaarthi",
         description:
             "CodeSaarthi is an interactive full-stack learning platform that provides a structured roadmap for mastering web development. It includes topic-wise learning, quizzes, logic-building problems, and cheatsheets to enhance both conceptual understanding and problem-solving skills, making it ideal for beginners and interview preparation.",
-        image: "/projects/codesaarthi.png",
+        image: "/projects/codesaarthi.webp",
         github: "https://github.com/CodeWithVishal-18/CodeSaarthi-Full-Stack-Full-Confidence",
         demo: "https://devsaarthi.vercel.app/",
         tech: ["React", "JavaScript", "Context API", "React Router", "Bootstrap", "CSS"]
@@ -16,7 +16,7 @@ let projects = [
         title: "UtilityVerse",
         description:
             "UtilityVerse is a modern utility dashboard that helps users manage daily tasks, format text, test knowledge with quizzes, and track job applications - all in one fast and minimal interface",
-        image: "/projects/utilityverse.png",
+        image: "/projects/utilityverse.webp",
         github: "https://github.com/CodeWithVishal-18/UtilityVerse",
         demo: "https://utility-versee.vercel.app/",
         tech: ["React", "JavaScript", "Context API", "Routing", "CSS", "Bootstrap"]
@@ -25,7 +25,7 @@ let projects = [
         title: "JapMala - Counter App",
         description:
             "A mobile-first digital Jap Mala that helps users track mantra chanting with customizable counts and provides a collection of mantras for different deities in a simple, distraction-free interface.",
-        image: "/projects/japmala.png",
+        image: "/projects/japmala.webp",
         github: "https://github.com/CodeWithVishal-18/JapMala---Counter-Application",
         demo: "https://japmala-mantra.netlify.app/",
         tech: ["React", "Bootstrap", "CSS", "API", "Routing"]
@@ -34,7 +34,7 @@ let projects = [
         title: "LoveSync Connect",
         description:
             "LoveSync Connect is an interactive web app that calculates relationship compatibility using both partners’ names and dates of birth. It analyzes name compatibility and horoscope matching to generate a realistic and engaging compatibility result for couples. ❤️",
-        image: "/projects/lovesync.png",
+        image: "/projects/lovesync.webp",
         github: "https://github.com/CodeWithVishal-18/LoveSync---A-Compatibility-Checker-Application",
         demo: "https://lovesync-calc.vercel.app/",
         tech: ["React", "JavaScript", "CSS", "Bootstrap"]
@@ -43,7 +43,7 @@ let projects = [
         title: "MovieSearch Application",
         description:
             "Built a movie search application that allows users to find movie details in real time, displaying information like genre, cast, and IMDb rating with a responsive UI and dark/light theme toggle.",
-        image: "/projects/moviesearch.png",
+        image: "/projects/moviesearch.webp",
         github: "https://github.com/CodeWithVishal-18/Movie-Search-Application",
         demo: "https://oncemoviesearch.netlify.app/",
         tech: ["React", "JavaScript", "CSS", "Bootstrap"]
@@ -52,7 +52,7 @@ let projects = [
         title: "HealthTrack & Fun",
         description:
             "Built a multi-functional web application combining a BMI calculator, motivational quote generator using Fetch API, and an interactive Rock Paper Scissors game with scoreboard, sound effects, and responsive UI.",
-        image: "/projects/healthtrack-game.png",
+        image: "/projects/healthtrack-game.webp",
         github: "https://github.com/CodeWithVishal-18/HealthTrack-Fun-Game-",
         demo: "https://bmi-gameeeee.netlify.app/",
         tech: ["HTML", "CSS", "JavaScript", "API","Bootstrap"]
@@ -61,7 +61,7 @@ let projects = [
         title: "TECH-SY Digital Solutions Website",
         description:
             "Designed a modern digital solutions landing page using HTML and CSS, showcasing services like web development, cybersecurity, AI, and cloud solutions with a clean and responsive UI.",
-        image: "/projects/techsy.png",
+        image: "/projects/techsy.webp",
         github: "https://github.com/CodeWithVishal-18/Tech-Sy",
         demo: "https://techsy.netlify.app/",
         tech: ["HTML", "CSS"]
