@@ -47,7 +47,7 @@ const About = memo(() => {
                 <div className="col-lg-8">
                     <div className="about-content">
                         <p>
-                            I'm a passionate <strong>Full Stack Developer</strong>
+                            I'm a passionate <span className="highlight"><strong>Full Stack Developer </strong></span>
                             who enjoys transforming ideas into modern,
                             responsive and user-friendly web applications.
                             I love creating clean interfaces while building
