@@ -3,11 +3,12 @@ import ProfileCard from "../../component/ProfileCard";
 import "./About.css";
 
 const technologies = [
+    { icon: "devicon-java-plain colored", name: "Java" },
+    { icon: "devicon-javascript-plain colored", name: "JavaScript" },
+    { icon: "devicon-python-plain colored", name: "Python" },
     { icon: "devicon-react-original colored", name: "React.js" },
     { icon: "devicon-nextjs-plain", name: "Next.js" },
-    { icon: "devicon-javascript-plain colored", name: "JavaScript" },
     { icon: "devicon-typescript-plain colored", name: "TypeScript" },
-    { icon: "devicon-java-plain colored", name: "Java" },
     { icon: "devicon-spring-plain colored", name: "Spring Boot" },
     { icon: "devicon-mysql-plain colored", name: "MySQL" },
     { icon: "devicon-bootstrap-plain colored", name: "Bootstrap" },
@@ -47,7 +48,7 @@ const About = memo(() => {
                 <div className="col-lg-8">
                     <div className="about-content">
                         <p>
-                            I'm a passionate <span className="highlight " style={{letterSpacing:"2px"}}><strong>Full Stack Developer </strong></span>
+                            I'm a passionate <span className="highlight " style={{ letterSpacing: "2px" }}><strong>Full Stack Developer </strong></span>
                             who enjoys transforming ideas into modern,
                             responsive and user-friendly web applications.
                             I love creating clean interfaces while building
