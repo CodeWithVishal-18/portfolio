@@ -21,7 +21,7 @@ let Home = memo(() => {
                 "Full Stack Developer",
                 "React Developer",
                 "Problem Solver",
-                "Full Stack Instructor",
+                "Full Stack Development Instructor",
                 "Freelancer"
               ]} loop={0} cursor cursorStyle="|" typeSpeed={80} deleteSpeed={50} delaySpeed={1500}/>
           </div>
