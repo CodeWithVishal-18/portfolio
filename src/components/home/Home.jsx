@@ -40,11 +40,9 @@ let Home = memo(() => {
             <a href="mailto:vishal.shuklaji45@gmail.com" target="_blank" rel="noreferrer"><i className="bi bi-envelope-fill"></i></a>
           </div>
         </div>
-
         <div className="hero-bg-section">
           <img src="hero-bg.svg" alt="Hero Illustration" />
         </div>
-
       </div>
     </section>
   )
